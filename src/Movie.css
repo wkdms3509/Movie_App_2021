@@ -23,6 +23,7 @@ body {
   width: 45%;
   margin-bottom: 70px;
   padding: 20px;
+  padding-bottom: 0;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -86,4 +87,10 @@ body {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 5;
   overflow: hidden;
+}
+
+.movies .movie:nth-child(7) {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
