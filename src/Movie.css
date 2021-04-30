@@ -1,32 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+
 :root {
   /* Color */
   --deep-gray-color: #2f2f2f;
   --white-color: #fff;
   --black-color: #000;
+
+  /* font */
+  --font-ptSerif: "PT Serif", serif;
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: var(--font-ptSerif);
   background-color: var(--deep-gray-color);
 }
 
-.movie {
+.movies .movie {
+  min-width: 500px;
+  width: 45%;
+  margin-bottom: 70px;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: var(--white-color);
+  font-weight: 300;
+  font-size: var(--font-small);
+  color: var(--light-gray2);
+  box-shadow: 5px 10px 15px var(--black-color);
+  border-radius: 5px;
+  transition: transform 400ms ease-in-out;
 }
 
-.movie img {
+.movies .movie:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-.movie .movie__data {
-  color: var(--white-color);
+.movies .movie img {
+  max-width: 150px;
+  width: 100%;
+  margin-right: 30px;
+  transform: translateY(-50px);
+  transform: rotateX();
+  border-radius: 5px;
+  box-shadow: 5px 10px 15px var(--deep-gray);
 }
 
-.movie .movie__title {
+.movies .movie .movie__title,
+.movies .movie .movie__year {
+  margin: 0;
+  font-weight: 300;
 }
 
-.movie .movie__year {
+.movies .movie .movie__title {
+  margin-bottom: 5px;
+  font-size: var(--font-medium);
+  font-weight: bold;
+  color: var(--deep-gray);
 }
 
-.movie .movie__genres {
+.movies .movie .movie__year,
+.movies .movie .movie__genres {
+  font-size: small;
 }
 
-.movie .movie__summary {
+.movies .movie .movie__genres {
+  list-style: none;
+  margin: 5px 0;
+  padding: 0;
+  display: flex;
+}
+
+.movies .movie .movie__genres li {
+  margin-right: 10px;
+  font-size: var(--font-small);
+}
+
+.movies .movie .movie__summary {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
 }

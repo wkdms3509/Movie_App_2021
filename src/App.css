@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+
+:root {
+  /* Color */
+  --deep-gray: #2c2c2c;
+  --deep-gray2: #2f2f2f;
+  --white-color: #fff;
+  --black-color: #000;
+  --light-gray: #d2d2e2;
+  --light-gray2: #b2b3bc;
+
+  /* font */
+  --font-ptSerif: "PT Serif", serif;
+
+  /* Size */
+  --font-medium: 16px;
+  --font-small: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: var(--font-ptSerif);
+  background-color: var(--deep-gray2);
+}
+
+html,
+body,
+.container,
+#root {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.loader {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  color: var(--white-color);
+}
+
+.movies {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 50px;
+  padding-top: 70px;
+}
