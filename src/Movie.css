@@ -1,0 +1,32 @@
+:root {
+  /* Color */
+  --deep-gray-color: #2f2f2f;
+  --white-color: #fff;
+  --black-color: #000;
+}
+
+body {
+  background-color: var(--deep-gray-color);
+}
+
+.movie {
+}
+
+.movie img {
+}
+
+.movie .movie__data {
+  color: var(--white-color);
+}
+
+.movie .movie__title {
+}
+
+.movie .movie__year {
+}
+
+.movie .movie__genres {
+}
+
+.movie .movie__summary {
+}
