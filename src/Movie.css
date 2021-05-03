@@ -10,14 +10,6 @@
   --font-ptSerif: "PT Serif", serif;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  font-family: var(--font-ptSerif);
-  background-color: var(--deep-gray-color);
-}
-
 .movies .movie {
   min-width: 500px;
   width: 45%;
@@ -40,6 +32,7 @@ body {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 .movies .movie img {
