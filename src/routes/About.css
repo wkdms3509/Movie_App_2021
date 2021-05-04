@@ -1,0 +1,9 @@
+.about__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__container h1 {
+  color: #fff;
+}

@@ -10,6 +10,11 @@
   --font-ptSerif: "PT Serif", serif;
 }
 
+.movies a {
+  display: contents;
+  text-decoration: none;
+}
+
 .movies .movie {
   min-width: 500px;
   width: 45%;
@@ -18,7 +23,7 @@
   padding-bottom: 0;
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: flex-start;
   background-color: var(--white-color);
   font-weight: 300;
   font-size: var(--font-small);
@@ -80,10 +85,4 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 5;
   overflow: hidden;
-}
-
-.movies .movie:nth-child(7) {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
 }

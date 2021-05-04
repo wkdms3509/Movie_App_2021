@@ -1,0 +1,47 @@
+.Detail__container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.Detail {
+  width: 100%;
+  height: 100%;
+  padding: 50px auto;
+  padding-top: 20px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.Detail h1,
+.Detail h2,
+.Detail h3,
+.Detail p {
+  opacity: 0.6;
+}
+
+.Detail h2 {
+  font-size: 18px;
+}
+
+.Detail h3 {
+  list-style: none;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.Detail p {
+  margin: 40px;
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+.Detail:nth-child(16) p {
+  margin: 40px;
+  padding-bottom: 10px;
+}
