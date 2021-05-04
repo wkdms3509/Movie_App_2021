@@ -16,11 +16,19 @@ React JS를 사용하여 영화 소개 사이트를 만들어 보았다.
 
 - 대기상태가 끝난 후 실행 화면
 
-![캡처20](https://user-images.githubusercontent.com/63761624/116852826-0065a080-ac30-11eb-9a89-2ddb2b8a539a.PNG)
+![캡처23](https://user-images.githubusercontent.com/63761624/117000677-6af40a80-ad1c-11eb-8d55-a818536a9524.PNG)
 
 - 영화 리스트에 마우스를 hover시키면 적용된 transform, transition 효과가 나타남
 
 ![캡처22](https://user-images.githubusercontent.com/63761624/116853154-88e44100-ac30-11eb-8e0c-dfd527c8d97d.png)
+
+- 영화를 클릭하면 상세 설명이 나타나있는 페이지로 이동한다.
+
+![캡처24](https://user-images.githubusercontent.com/63761624/117000720-7e06da80-ad1c-11eb-8812-d2b237e2906b.PNG)
+
+- About 페이지로 이동하지만 비어있는 상태이고, <- 아이콘을 클릭하거나 네비게이션의 Home을 클릭하면 기본 Home 페이지로 돌아간다.
+
+![캡처25](https://user-images.githubusercontent.com/63761624/117001103-e5bd2580-ad1c-11eb-8aca-c742733f8cdf.PNG)
 
 ## 사용언어 및 라이브러리
 
